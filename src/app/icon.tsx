@@ -1,8 +1,5 @@
 import { ImageResponse } from 'next/og'
 
-// Route segment config
-export const runtime = 'edge'
-
 // Image metadata
 export const size = {
   width: 32,
@@ -34,7 +31,7 @@ export default function Icon() {
           style={{
             position: 'absolute',
             inset: '2px',
-            background: 'conic-gradient(from 0deg, rgba(34, 211, 238, 0.15), rgba(59, 130, 246, 0.12), rgba(147, 51, 234, 0.1), rgba(236, 72, 153, 0.08), rgba(34, 211, 238, 0.15))',
+            background: 'radial-gradient(circle at 50% 50%, rgba(34, 211, 238, 0.15) 0%, rgba(59, 130, 246, 0.12) 25%, rgba(147, 51, 234, 0.1) 50%, rgba(236, 72, 153, 0.08) 75%, rgba(34, 211, 238, 0.15) 100%)',
             borderRadius: '6px',
           }}
         />

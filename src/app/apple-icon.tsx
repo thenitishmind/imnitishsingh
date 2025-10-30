@@ -1,8 +1,5 @@
 import { ImageResponse } from 'next/og'
 
-// Route segment config
-export const runtime = 'edge'
-
 // Image metadata
 export const size = {
   width: 180,
@@ -34,7 +31,7 @@ export default function AppleIcon() {
           style={{
             position: 'absolute',
             inset: '6px',
-            background: 'conic-gradient(from 45deg, rgba(34, 211, 238, 0.2), rgba(59, 130, 246, 0.15), rgba(147, 51, 234, 0.12), rgba(236, 72, 153, 0.1), rgba(251, 146, 60, 0.08), rgba(34, 211, 238, 0.2))',
+            background: 'radial-gradient(circle at 50% 50%, rgba(34, 211, 238, 0.2) 0%, rgba(59, 130, 246, 0.15) 20%, rgba(147, 51, 234, 0.12) 40%, rgba(236, 72, 153, 0.1) 60%, rgba(251, 146, 60, 0.08) 80%, rgba(34, 211, 238, 0.2) 100%)',
             borderRadius: '34px',
           }}
         />

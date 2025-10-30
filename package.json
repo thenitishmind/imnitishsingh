@@ -12,7 +12,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:production": "NODE_ENV=production MINIMIZE=true next build"
+    "build:production": "NODE_ENV=production MINIMIZE=true next build",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
