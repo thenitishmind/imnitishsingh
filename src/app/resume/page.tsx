@@ -70,7 +70,7 @@ export default function ResumePage() {
         contact: {
           email: "devops@nitishsingh.dev",
           phone: "+91-XXXXXXXXXX",
-          location: "Gurugram, Haryana, India",
+          location: "Maharashtra, Pune, India",
           github: "https://github.com/thenitishmind",
           linkedin: "https://linkedin.com/in/nitishsingh"
         }
@@ -111,7 +111,7 @@ export default function ResumePage() {
           title: "Full Stack Developer",
           company: "Bizloan Pvt Ltd",
           period: "Current Position",
-          location: "DLF, Gurugram, Haryana",
+          location: "Maharashtra, Pune",
           responsibilities: [
             "Developing and maintaining web applications for financial services",
             "Collaborating with cross-functional teams to deliver scalable solutions",

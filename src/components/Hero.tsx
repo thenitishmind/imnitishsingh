@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { FaGithub, FaArrowRight } from "react-icons/fa";
+import { FaGithub, FaArrowRight, FaDownload } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -64,6 +64,13 @@ const Hero = () => {
                   View Projects <FaArrowRight className="ml-2" />
                 </span>
               </Link>
+              <a
+                href="/Resume/Nitish RESUME.pdf"
+                download
+                className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-green-500/50 transition-all duration-300"
+              >
+                <FaDownload className="mr-2" /> Download Resume
+              </a>
               <a
                 href={profile?.html_url || "https://github.com/thenitishmind"}
                 target="_blank"

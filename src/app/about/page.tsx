@@ -86,7 +86,7 @@ export default function AboutPage() {
         "Working with technologies including React, Python, MySQL, MongoDB, etc.",
         "Developing various types of projects including e-commerce, fintech, and web applications"
       ],
-      location: "DLF, 132, Qutab Plaza Road, DLF Phase 1, Sector 26A, Gurugram, Haryana 122002"
+      location: "Maharashtra, Pune, India"
     },
     {
       title: "Freelance Web Developer",
